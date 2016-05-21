@@ -1,4 +1,8 @@
 package com.fuckbh.sample2048.model;
+import static org.junit.Assert.*;
+
+import org.apache.commons.lang3.StringUtils;
+import org.junit.Test;
 
 public class PointTest {
 
@@ -20,5 +24,7 @@ public class PointTest {
 		
 		assertEquals(modifiedX, point.getX());
 		assertEquals(modifiedY, point.getY());
+
+		System.out.println(StringUtils.isNumeric("1234"));
 	}
 }
