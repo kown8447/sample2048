@@ -24,7 +24,5 @@ public class PointTest {
 		
 		assertEquals(modifiedX, point.getX());
 		assertEquals(modifiedY, point.getY());
-
-		System.out.println(StringUtils.isNumeric("1234"));
 	}
 }

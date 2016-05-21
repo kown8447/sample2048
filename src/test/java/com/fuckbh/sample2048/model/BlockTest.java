@@ -13,4 +13,14 @@ public class BlockTest {
 		
 		assertEquals(0, block.getValue());
 	}
+	
+	@Test
+	public void testGetAndSetPoint() {
+		
+		Point point = new Point(1, 2);
+		Block block = new Block(1, point);
+		
+		assertEquals(1, block.getPoint().getX());
+		assertEquals(2, block.getPoint().getY());
+	}
 }
